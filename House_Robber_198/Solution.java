@@ -6,7 +6,7 @@ class Solution {
 	
     public int rob(int[] nums) {
     	
-    	//f(k) = max(f(n ¨C 2) + An, f(n ¨C 1))
+    	//f(k) = max(f(n - 2) + An, f(n - 1))
     	int preMax = 0; // f(n-2)
     	int curMax = 0; // f(n-1)
     	
