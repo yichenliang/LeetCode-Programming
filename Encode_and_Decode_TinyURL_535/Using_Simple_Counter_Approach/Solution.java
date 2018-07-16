@@ -42,3 +42,4 @@ class Solution {
 		System.out.println(longUrl_output2);
     }
 }
+
