@@ -48,7 +48,7 @@ class Solution {
 // 5: https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html
 // 6: https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html  some API of linkedlist (isEmpty, add, getLast)
 
-// time complexity: O(nlgn)O(nlgn), Other than the sort invocation, we do a simple linear scan of the list, 
+// time complexity: O(nlgn), Other than the sort invocation, we do a simple linear scan of the list, 
 //                  so the runtime is dominated by the O(nlgn) complexity of sorting.
 
 // space complexity: O(n)
