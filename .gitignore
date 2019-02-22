@@ -1,3 +1,5 @@
+.docx
+
 # Ignore Gradle project-specific cache directory
 .gradle
 
@@ -6,3 +8,5 @@ build
 
 out
 .idea
+/bin/
+
