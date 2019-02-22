@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67a30628-47b9-4f4e-97e9-2dd918e6d094" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/1-bit_and_2-bit_Characters_717/Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/1-bit_and_2-bit_Characters_717/Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/1-bit_and_2-bit_Characters_717/Increment_Pointer_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/1-bit_and_2-bit_Characters_717/Increment_Pointer_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Array_Partition_I_561/Using_Extra_Array_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Array_Partition_I_561/Using_Extra_Array_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Array_Partition_I_561/Using_Sorting_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Array_Partition_I_561/Using_Sorting_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Best_Time_to_Buy_and_Sell_Stock_II_122/Peak_Valley _Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Best_Time_to_Buy_and_Sell_Stock_II_122/Peak_Valley _Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Best_Time_to_Buy_and_Sell_Stock_II_122/Simple_One _Pass_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Best_Time_to_Buy_and_Sell_Stock_II_122/Simple_One _Pass_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Contains_Duplicate_217/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Contains_Duplicate_217/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Counting_Bits_338/Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Counting_Bits_338/Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Counting_Bits_338/DP+Last_Set_Bit_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Counting_Bits_338/DP+Last_Set_Bit_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Counting_Bits_338/DP+Least_Significant_Bit_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Counting_Bits_338/DP+Least_Significant_Bit_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Encode_and_Decode_TinyURL_535/Random_fixed-length_encoding_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Encode_and_Decode_TinyURL_535/Random_fixed-length_encoding_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Encode_and_Decode_TinyURL_535/Using_Simple_Counter_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Encode_and_Decode_TinyURL_535/Using_Simple_Counter_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Encode_and_Decode_TinyURL_535/Using_hashcode_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Encode_and_Decode_TinyURL_535/Using_hashcode_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Find_Anagram_Mappings_760/Hash_Table_contain_Duplicate_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Find_Anagram_Mappings_760/Hash_Table_contain_Duplicate_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Find_Anagram_Mappings_760/Hash_Table_without_Duplicate_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Find_Anagram_Mappings_760/Hash_Table_without_Duplicate_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/House_Robber_198/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/House_Robber_198/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Image_Smoother_661/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Image_Smoother_661/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Invert_Binary_Tree_226/Iterative_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Invert_Binary_Tree_226/Iterative_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Invert_Binary_Tree_226/Recursive_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Invert_Binary_Tree_226/Recursive_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Jewels_and_Stones_771/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Jewels_and_Stones_771/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Judge_Route_Circle_657/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Judge_Route_Circle_657/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Majority_Element_169/Boyer-Moore_Voting_Algorithm_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Majority_Element_169/Boyer-Moore_Voting_Algorithm_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Majority_Element_169/HashMap_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Majority_Element_169/HashMap_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Majority_Element_169/Sorting_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Majority_Element_169/Sorting_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Max_Increase_to_Keep_City_Skyline_807/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Max_Increase_to_Keep_City_Skyline_807/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Meeting_Rooms_252/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Meeting_Rooms_252/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Merge_Two_Binary_Trees_617/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Merge_Two_Binary_Trees_617/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Merge_Two_Sorted_Lists_21/Iteration_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Merge_Two_Sorted_Lists_21/Iteration_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Merge_Two_Sorted_Lists_21/Iteration_Approach_without_an_extra_new_ListNode_/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Merge_Two_Sorted_Lists_21/Iteration_Approach_without_an_extra_new_ListNode_/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Merge_Two_Sorted_Lists_21/Recursion_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Merge_Two_Sorted_Lists_21/Recursion_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Minimum_Moves_to_Equal_Array_Elements_453/Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Minimum_Moves_to_Equal_Array_Elements_453/Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Minimum_Moves_to_Equal_Array_Elements_453/Modified_Using_Maths_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Minimum_Moves_to_Equal_Array_Elements_453/Modified_Using_Maths_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Minimum_Moves_to_Equal_Array_Elements_453/Using_Sorting_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Minimum_Moves_to_Equal_Array_Elements_453/Using_Sorting_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Move_Zeroes_283/Index_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Move_Zeroes_283/Index_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Move_Zeroes_283/Swap_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Move_Zeroes_283/Swap_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Nested_List_Weight_Sum_339/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Nested_List_Weight_Sum_339/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Number_of_1_Bits_191/Bit_Manipulation_Trick_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Number_of_1_Bits_191/Bit_Manipulation_Trick_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Number_of_1_Bits_191/Loop_and_Flip_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Number_of_1_Bits_191/Loop_and_Flip_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Palindrome_Number_9/Compare_Each_Bit_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Palindrome_Number_9/Compare_Each_Bit_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Palindrome_Number_9/Revert_half_of_the_number_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Palindrome_Number_9/Revert_half_of_the_number_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Pascal_Triangle_188/Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Pascal_Triangle_188/Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Pascal_Triangle_188/Dynamic_Programming_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Pascal_Triangle_188/Dynamic_Programming_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Self_Dividing_Numbers_728/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Self_Dividing_Numbers_728/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Single_Number_136/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Single_Number_136/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Symmetric_Tree_101/Iterative_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Symmetric_Tree_101/Iterative_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Symmetric_Tree_101/Recursive_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Symmetric_Tree_101/Recursive_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Unique_Morse_Code_Words_804/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Unique_Morse_Code_Words_804/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Wiggle_Sort_280/Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Wiggle_Sort_280/Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20180702-20180729/Wiggle_Sort_280/One-pass_Swap_even-odd_position_Approach/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20180702-20180729/Wiggle_Sort_280/One-pass_Swap_even-odd_position_Approach/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190110-20190113/Add_Two_Numbers_2/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190110-20190113/Add_Two_Numbers_2/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190110-20190113/Number_of_Islands_200/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190110-20190113/Number_of_Islands_200/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190110-20190113/Number_of_Islands_200/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190110-20190113/Number_of_Islands_200/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190110-20190113/Two_Sum_1/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190110-20190113/Two_Sum_1/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190110-20190113/Two_Sum_1/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190110-20190113/Two_Sum_1/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/3Sum_15/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/3Sum_15/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/Copy_List_with_Random_Pointer_138/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/Copy_List_with_Random_Pointer_138/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/Copy_List_with_Random_Pointer_138/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/Copy_List_with_Random_Pointer_138/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/Fruit_Into_Baskets_904/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/Fruit_Into_Baskets_904/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/Integer_to_English_Words_273/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/Integer_to_English_Words_273/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/Longest_Palindromic_Substring_5/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/Longest_Palindromic_Substring_5/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/Longest_Substring_Without_Repeating_Characters_3/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/Longest_Substring_Without_Repeating_Characters_3/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/Longest_Substring_Without_Repeating_Characters_3/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/Longest_Substring_Without_Repeating_Characters_3/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/Median_of_Two_Sorted_Arrays_4/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/Median_of_Two_Sorted_Arrays_4/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/Merge_Intervals_56/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/Merge_Intervals_56/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/Unique_Email_Addresses_929/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/Unique_Email_Addresses_929/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190114-20190120/Valid_Parentheses_20/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190114-20190120/Valid_Parentheses_20/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Alien_Dictionary_269/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Alien_Dictionary_269/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Best_Time_to_Buy_and_Sell_Stock_121/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Best_Time_to_Buy_and_Sell_Stock_121/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Container_With_Most_Water_11/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Container_With_Most_Water_11/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Linked_List_Cycle_141/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Linked_List_Cycle_141/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Maximum_Subarray_53/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Maximum_Subarray_53/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Maximum_Subarray_53/Solution_lessSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Maximum_Subarray_53/Solution_lessSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Meeting_Rooms_II_253/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Meeting_Rooms_II_253/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Merge_k_Sorted_List_23/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Merge_k_Sorted_List_23/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Product_of_Array_Except_Self_238/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Product_of_Array_Except_Self_238/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Reverse_Integer_7/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Reverse_Integer_7/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Reverse_Linked_List_206/Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Reverse_Linked_List_206/Iterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Reverse_Linked_List_206/Recursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Reverse_Linked_List_206/Recursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190121-20190127/Search_in_Rotated_Sorted_Array_33/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190121-20190127/Search_in_Rotated_Sorted_Array_33/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Coin _Change_322/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Coin _Change_322/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Coin _Change_322/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Coin _Change_322/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Generate_Parentheses_22/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Generate_Parentheses_22/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Jewels_and_Stones_771/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Jewels_and_Stones_771/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Letter_Combinations_of_a_Phone_Number_17/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Letter_Combinations_of_a_Phone_Number_17/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/License_Key_Formatting_482/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/License_Key_Formatting_482/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Merge_Two_Sorted_Lists_21/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Merge_Two_Sorted_Lists_21/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Merge_Two_Sorted_Lists_21/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Merge_Two_Sorted_Lists_21/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Minimum_Window_Substring_76/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Minimum_Window_Substring_76/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Next_Closest_Time_681/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Next_Closest_Time_681/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Next_Permutation_31/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Next_Permutation_31/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Palindrome_Number_9/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Palindrome_Number_9/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Palindrome_Number_9/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Palindrome_Number_9/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Regular_Expression_Matching_10/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Regular_Expression_Matching_10/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Serialize_and_Deserialize_Binary_Tree_297/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Serialize_and_Deserialize_Binary_Tree_297/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190128-20190203/Trapping_Rain_Water_42/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190128-20190203/Trapping_Rain_Water_42/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Decode_Ways_91/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Decode_Ways_91/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Evaluate_Division_399/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Evaluate_Division_399/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Game_of_Life_289/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Game_of_Life_289/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Group_Anagrams_49/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Group_Anagrams_49/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Longest_Substring _with_At_Most_Two_Distinct_Characters_159/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Longest_Substring _with_At_Most_Two_Distinct_Characters_159/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Lowest_Common_Ancestor_of_a_Binary_Tree_236/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Lowest_Common_Ancestor_of_a_Binary_Tree_236/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Max_Area_of_Island_695/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Max_Area_of_Island_695/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Merge_Sorted_Array_88/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Merge_Sorted_Array_88/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Reverse_String_344/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Reverse_String_344/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Roman_to_Integer_13/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Roman_to_Integer_13/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Roman_to_Integer_13/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Roman_to_Integer_13/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Spiral_Matrix_54/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Spiral_Matrix_54/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Subarray_Sum_Equals_K_560/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Subarray_Sum_Equals_K_560/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Task_Scheduler_621/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Task_Scheduler_621/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/UTF-8_Validation_393/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/UTF-8_Validation_393/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/UTF-8_Validation_393/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/UTF-8_Validation_393/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Validate_Binary_Search_Tree_98/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Validate_Binary_Search_Tree_98/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190204-20190210/Word_Break_139/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190204-20190210/Word_Break_139/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Add_Binary_67/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Add_Binary_67/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Add_Binary_67/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Add_Binary_67/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Basic_Calculator_224/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Basic_Calculator_224/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Binary_Search_Tree_Iterator_173/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Binary_Search_Tree_Iterator_173/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Binary_Tree_Maximum_Path Sum_124/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Binary_Tree_Maximum_Path Sum_124/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Design_Search_Autocomplete_System_642/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Design_Search_Autocomplete_System_642/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Find_Median_from_Data_Stream_295/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Find_Median_from_Data_Stream_295/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/First_Missing_Positive_41/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/First_Missing_Positive_41/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/First_Missing_Positive_41/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/First_Missing_Positive_41/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Fizz_Buzz_412/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Fizz_Buzz_412/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Insert_Delete_GetRandom_O(1)_380/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Insert_Delete_GetRandom_O(1)_380/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Largest_Rectangle_in_Histogram_84/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Largest_Rectangle_in_Histogram_84/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Maximal_Rectangle_85/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Maximal_Rectangle_85/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Move_Zeroes_283/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Move_Zeroes_283/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Move_Zeroes_283/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Move_Zeroes_283/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Permutations_46/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Permutations_46/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Read_N_Characters_Given_Read4_II-Call_multiple_times_158/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Read_N_Characters_Given_Read4_II-Call_multiple_times_158/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Remove_Invalid_Parentheses_301/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Remove_Invalid_Parentheses_301/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Reverse_Nodes_in_k-Group_25/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Reverse_Nodes_in_k-Group_25/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Reverse_Words_in_a_String_151/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Reverse_Words_in_a_String_151/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Reverse_Words_in_a_String_151/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Reverse_Words_in_a_String_151/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Reverse_Words_in_a_String_151/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Reverse_Words_in_a_String_151/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/String_to_Integer_(atoi)_8/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/String_to_Integer_(atoi)_8/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Word_Ladder_127/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Word_Ladder_127/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190211-20190217/Word_Search_79/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190211-20190217/Word_Search_79/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/3Sum_Closest_16/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/3Sum_Closest_16/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/Backspace_String_Compare_844/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/Backspace_String_Compare_844/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/Backspace_String_Compare_844/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/Backspace_String_Compare_844/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/Binary_Tree_Zigzag_Level_Order_Traversal_103/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/Binary_Tree_Zigzag_Level_Order_Traversal_103/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/Decode_String_394/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/Decode_String_394/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/Edit_Distance_72/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/Edit_Distance_72/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/Kth_Largest_Element_in_an_Array_215/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/Kth_Largest_Element_in_an_Array_215/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/Kth_Largest_Element_in_an_Array_215/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/Kth_Largest_Element_in_an_Array_215/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/LRU_Cache_146/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/LRU_Cache_146/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/Palindrome_Pairs_336/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/Palindrome_Pairs_336/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/Random_Pick_with_Weight_528/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/Random_Pick_with_Weight_528/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/Sliding_Window_Maximum_239/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/Sliding_Window_Maximum_239/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190218-20190224/Sliding_Window_Maximum_239/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/unorganized/20190218-20190224/Sliding_Window_Maximum_239/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/yichenliang/leetcode/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/yichenliang/leetcode/OneBitAndTwoBitCharactersTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unorganized/20180702-20180729/1-bit_and_2-bit_Characters_717/Approach/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#782#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/yichenliang/leetcode/OneBitAndTwoBitCharacters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unorganized/20180702-20180729/1-bit_and_2-bit_Characters_717/Increment_Pointer_Approach/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/yichenliang/leetcode/OneBitAndTwoBitCharactersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/yichenliang/leetcode/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/yichenliang/leetcode/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yichenliang/leetcode/OneBitAndTwoBitCharacters.java" />
+        <option value="$PROJECT_DIR$/build.gradle.kts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2087" />
+    <option name="y" value="-769" />
+    <option name="width" value="1444" />
+    <option name="height" value="1337" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCode-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-Programming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550830841740" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="yichenliang.leetcode" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unorganized" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.OneBitAndTwoBitCharactersTest">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yichenliang.leetcode.Solution" />
+      <module name="LeetCode-Programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yichenliang.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneBitAndTwoBitCharactersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode-Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yichenliang.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yichenliang.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="yichenliang.leetcode.OneBitAndTwoBitCharactersTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneBitAndTwoBitCharactersTest.isOneBitCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode-Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yichenliang.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yichenliang.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="yichenliang.leetcode.OneBitAndTwoBitCharactersTest" />
+      <option name="METHOD_NAME" value="isOneBitCharacter" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OneBitAndTwoBitCharactersTest" />
+        <item itemvalue="JUnit.OneBitAndTwoBitCharactersTest.isOneBitCharacter" />
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67a30628-47b9-4f4e-97e9-2dd918e6d094" name="Default Changelist" comment="" />
+      <created>1550827589213</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550827589213</updated>
+      <workItem from="1550827591227" duration="3205000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SolutionTest_isOneBitCharacter - 2019.02.22 at 18h 52m 22s.xml">
+      <configuration name="SolutionTest.isOneBitCharacter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_isOneBitCharacter - 2019.02.22 at 18h 52m 40s.xml">
+      <configuration name="SolutionTest.isOneBitCharacter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2019.02.22 at 18h 53m 19s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2019.02.22 at 19h 01m 48s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OneBitAndTwoBitCharactersTest - 2019.02.22 at 19h 18m 05s.xml">
+      <configuration name="OneBitAndTwoBitCharactersTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3205000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2087" y="-769" width="1444" height="1337" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964337" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32931727" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5518072" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unorganized/20180702-20180729/1-bit_and_2-bit_Characters_717/Approach/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unorganized/20180702-20180729/1-bit_and_2-bit_Characters_717/Increment_Pointer_Approach/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/yichenliang/leetcode/OneBitAndTwoBitCharactersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yichenliang/leetcode/OneBitAndTwoBitCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>bootstrap-select</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LeetCode-Programming</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
