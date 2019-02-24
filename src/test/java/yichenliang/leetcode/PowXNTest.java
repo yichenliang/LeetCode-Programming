@@ -5,12 +5,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
-public class Pow_x_nTest {
-	private Pow_x_n solution;
+public class PowXNTest {
+	private PowXN solution;
 
     @BeforeEach
     void beforeEach() {
-        solution = new Pow_x_n();
+        solution = new PowXN();
     }
 
     @Test

@@ -7,7 +7,7 @@ package yichenliang.leetcode;
  * space complexity: O(1)
  */
 
-public class Pow_x_n{
+public class PowXN{
 	public double myPow(double num, int power) {
         //egde case
         if(num == 1 || power == 0) return 1;

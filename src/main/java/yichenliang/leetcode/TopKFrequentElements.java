@@ -9,7 +9,7 @@ import java.util.Map;
  * 347. Top K Frequent Elements
  */
 
-public class TopK_FrequentElements {
+public class TopKFrequentElements {
 	
 public List<Integer> topKFrequent(int[] nums, int k) {
         

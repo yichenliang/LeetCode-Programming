@@ -8,12 +8,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
-public class TopK_FrequentElementsTest {
-	private TopK_FrequentElements solution;
+public class TopKFrequentElementsTest {
+	private TopKFrequentElements solution;
 
     @BeforeEach
     void beforeEach() {
-        solution = new TopK_FrequentElements();
+        solution = new TopKFrequentElements();
     }
 
     @Test
