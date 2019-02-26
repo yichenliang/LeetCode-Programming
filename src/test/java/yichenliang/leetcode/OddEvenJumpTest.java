@@ -14,7 +14,7 @@ public class OddEvenJumpTest {
 	    }
 
 	    @Test
-	    void isOneBitCharacter() {
+	    void test1() {
 	        
 	        Assertions.assertEquals(2 ,solution.oddEvenJumps(new int[] {10,13,12,14,15}));
 	    }

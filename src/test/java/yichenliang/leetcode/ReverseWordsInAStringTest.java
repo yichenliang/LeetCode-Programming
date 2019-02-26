@@ -14,7 +14,7 @@ public class ReverseWordsInAStringTest {
 	    }
 
 	    @Test
-	    void isOneBitCharacter() {
+	    void test1() {
 	        Assertions.assertEquals("blue is sky the", solution.reverseWords("the sky is blue"));
 	        
 	    }

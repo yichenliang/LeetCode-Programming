@@ -16,7 +16,7 @@ public class PalindromePairsTest {
 	    }
 	    
 	    @Test
-	    void isOneBitCharacter() {
+	    void test1() {
 	    	List<Integer> list1 = new ArrayList<>();
 	    	list1.add(1);
 	    	list1.add(0);
