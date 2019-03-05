@@ -1,59 +1,53 @@
 package yichenliang.leetcode;
 
+ class TreeNode {
+	     int val;
+	     TreeNode left;
+	     TreeNode right;
+	     TreeNode(int x) { val = x; }
+  }
+
 public class Solution {
 	
-
-	public int maxAreaOfIsland(int[][] grid) {
+	public int maxPathSum(TreeNode root) {
         
-        if(grid == null || grid.length == 0 || grid[0].length == 0) return 0;
-       
-       int maxResult = 0;
-       
-       for(int i = 0; i < grid.length; i++){
-           for(int j = 0; j < grid[0].length; j++){
-               if(grid[i][j] == 1){
-                   int[] curMax = {0};
-                   dfsHelper(grid, i, j, curMax);
-                   maxResult = Math.max(maxResult, curMax[0]);
-               }
-           }
-       }
-       return maxResult;
-   }
-   
-   void dfsHelper(int[][] grid, int i, int j, int[] max){
-       
-       //end case
-       if(i < 0 || j < 0 || i == grid.length || j == grid[0].length) return;
-       
+        if(root == null) return 0;
+        
+        Integer result = Integer.MIN_VALUE;
+        
+        dfsHelper(root, result);     
+        
+        return result;
+    }
+    
+    int dfsHelper(TreeNode root, Integer max){
+        
+       // end case
+       if(root == null) return 0;
+        
        // normal case
-       if(grid[i][j] == 1){
-           max[0]++;
-           grid[i][j] = 0;
-           
-           // up
-           dfsHelper(grid, i - 1, j, max);
-               
-           // down
-           dfsHelper(grid, i + 1, j, max);
-           
-           // left
-           dfsHelper(grid, i, j - 1, max);
-           
-           // right
-           dfsHelper(grid, i, j + 1, max);
-       }
-       return;
-   }
+       int leftMax = dfsHelper(root.left, max);
+       int rightMax = dfsHelper(root.right, max);
+       int curVal = root.val + leftMax + rightMax;
+       max = Math.max(curVal, max);
+       return root.val + Math.max(leftMax, rightMax);
+       
+    }
     
     public static void main(String[] args) {
       	 
        	Solution solution = new Solution();
   
-       	int[][] grid = {{1,1},{1,0}};
-       
- 
-        int res = solution.maxAreaOfIsland(grid);
+//       	TreeNode root = new TreeNode(-10);
+//       	root.left = new TreeNode(9);
+//       	root.right = new TreeNode(20);
+//       	root.right.left = new TreeNode(15);
+//       	root.right.right = new TreeNode(7);
+       	
+   	TreeNode root = new TreeNode(1);
+   	root.left = new TreeNode(2);
+   	root.right = new TreeNode(3);
+        int res = solution.maxPathSum(root);
        	System.out.println(res);
       }
     
