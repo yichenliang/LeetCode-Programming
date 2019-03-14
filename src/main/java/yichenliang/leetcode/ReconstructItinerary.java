@@ -8,6 +8,8 @@ import java.util.Map;
 
 /**
  *  332. Reconstruct Itinerary
+ *  
+ *  DFS
  * 
  */
 
@@ -17,9 +19,9 @@ public class ReconstructItinerary {
         
         if(tickets == null || tickets.length == 0 || tickets[0].length == 0) return res;
         
-        Map<String, LinkedList<String>> store = new HashMap<>();
+        Map<String, List<String>> store = new HashMap<>();
         int resLen = tickets.length + 1;
-        int size = 0;
+        //int[] size = {0};
         
         for(int i = 0; i < tickets.length; i++){
             String key = tickets[i][0];
@@ -27,30 +29,51 @@ public class ReconstructItinerary {
                 insertNew(store.get(key), tickets[i][1]);
             }
             else{
-                LinkedList<String> temp = new LinkedList<>();
+                List<String> temp = new LinkedList<>();
                 temp.add(tickets[i][1]);
                 store.put(key, temp);
             }
         }
         
         res.add("JFK");
-        size++;
+        //size[0]++;
         String start = "JFK";
-        //String end = "";
-        while(size < resLen){
-            LinkedList<String> cur = store.get(start);
-            if(cur.size() == 1){
-                res.add(cur.get(0));
-                size++;
-                start = cur.get(0);
-            }
-            else{
-                start = cur.remove(0);
-                res.add(start);
-                size++;    
-            }           
-        }
+        
+        dfsHelper(res, start, store, 1, resLen);
+        
         return res;
+       
+    }
+    
+    boolean dfsHelper(List<String> res, String start,  Map<String, List<String>> store, int size, int resLen){
+        
+        // end case
+        if(size == resLen){
+            return true;
+        }
+        if(!store.containsKey(start)){
+            //res.remove(res.size() - 1);
+            return false;
+        }
+        
+        // normal case
+        int i = 0;
+        List<String> ends = store.get(start);
+        while(i < ends.size()){
+            String end = ends.remove(i);
+            res.add(end);
+            //size[0]++;
+            if(dfsHelper(res, end, store, size + 1, resLen)){
+                return true;
+            }
+            res.remove(res.size() - 1);
+            //size[0]--;
+            //ends.addLast(end);
+            insertNew(ends, end);
+            i++;
+        }
+        return false;
+        
     }
     
     void insertNew(List<String> positions, String p){
@@ -65,5 +88,4 @@ public class ReconstructItinerary {
         // insert
         positions.add(i, p);     
     }
-
 }
