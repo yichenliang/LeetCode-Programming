@@ -1,5 +1,7 @@
 package yichenliang.leetcode.withoutTopic;
 
+import java.util.Arrays;
+
 /**
  * 300. Longest Increasing Subsequence
  * 
@@ -33,6 +35,28 @@ public class LongestIncreasingSubsequence {
 	        }
 	        return maxans;
 	    }
+	 
+	 public int lengthOfLIS2(int[] nums) {
+		 if(nums == null || nums.length == 0) return 0;
+	        
+	        int n = nums.length;
+	        int[] res = new int[n];
+	        Arrays.fill(res, 1);
+	        
+	        for(int i = 1; i < n; i++){
+	            for(int j = 0; j < i; j++){
+	                if(nums[i] > nums[j]){
+	                    res[i] = Math.max(res[i], res[j] + 1);
+	                }
+	            }
+	        }
+	        
+	        int ans = 0;
+	        for(int r : res){
+	            ans = Math.max(ans, r);
+	        }
+	        return ans;
+	 }
 	
 	// binary search approach: want to be done 
 }
