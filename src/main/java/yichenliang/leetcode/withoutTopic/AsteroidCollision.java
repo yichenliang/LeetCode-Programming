@@ -40,7 +40,7 @@ public int[] asteroidCollision(int[] asteroids) {
                 while(stack.size() > 0 && curValue < 0 && stack.peekFirst() > 0){
                     int stackTop = stack.removeFirst();
                     if(Math.abs(curValue) > Math.abs(stackTop)){
-                        curValue = curValue;
+                        //curValue = curValue;
                     }
                     else if(Math.abs(curValue) < Math.abs(stackTop)){
                         curValue = stackTop;
