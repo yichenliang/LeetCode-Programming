@@ -1,4 +1,4 @@
-package yichenliang.leetcode.graph;
+package yichenliang.leetcode.unionFind;
 
 import java.util.HashMap;
 import java.util.Map;

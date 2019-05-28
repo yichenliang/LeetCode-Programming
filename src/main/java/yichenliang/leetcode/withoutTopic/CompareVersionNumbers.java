@@ -18,6 +18,11 @@ public class CompareVersionNumbers {
         
         String[] v1 = version1.split("\\.");
         String[] v2 = version2.split("\\.");
+//        String[] v1 = version1.split(".");
+//        String[] v2 = version2.split(".");
+        
+//        String str = "1,2,e,s,&&,*,";
+//        String[] ve = str.split(",");
         int len = Math.min(v1.length, v2.length);
         
         for(int i = 0; i < len; i++){

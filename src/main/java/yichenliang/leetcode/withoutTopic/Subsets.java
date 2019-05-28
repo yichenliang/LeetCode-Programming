@@ -33,5 +33,31 @@ public class Subsets {
         }
         return ans;
     }
+	
+	public List<List<Integer>> subsets1(int[] nums) {
+        
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> current = new ArrayList<>();
+        res.add(new ArrayList<Integer>(current));
+        if(nums == null || nums.length == 0){
+            return res;
+        }
+        
+        // normal case
+        helper(nums, res, current, 0);
+        return res;
+    }
+    
+    void helper(int[] nums, List<List<Integer>> res, List<Integer> current, int index){
+      
+        // normal case
+        for(int i = index; i < nums.length; i++){
+            current.add(nums[i]);
+            res.add(new ArrayList<Integer>(current));
+            helper(nums, res, current, i + 1);
+            current.remove(current.size() - 1);
+        }
+        
+    }
 
 }

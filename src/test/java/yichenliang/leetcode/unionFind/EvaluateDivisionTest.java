@@ -1,8 +1,10 @@
-package yichenliang.leetcode.graph;
+package yichenliang.leetcode.unionFind;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import yichenliang.leetcode.unionFind.EvaluateDivision;
 
 public class EvaluateDivisionTest {
 	
