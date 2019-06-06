@@ -3,7 +3,7 @@ package yichenliang.leetcode.withoutTopic;
 /**
  *  29. Divide Two Integers
  * 
- *  Math + Binary Search
+ *  Math + Bit + Binary Search
  *  
  *  time complexity: O(logN)
  *  space complexity: O(1)

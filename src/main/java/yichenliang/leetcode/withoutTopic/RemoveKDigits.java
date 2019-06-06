@@ -2,7 +2,7 @@ package yichenliang.leetcode.withoutTopic;
 
 public class RemoveKDigits {
 	
-public String removeKdigits(String num, int k) {
+	public String removeKdigits(String num, int k) {
         
         // edge case
         
