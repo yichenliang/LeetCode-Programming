@@ -1,4 +1,4 @@
-package yichenliang.leetcode.withoutTopic;
+package yichenliang.leetcode.graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;

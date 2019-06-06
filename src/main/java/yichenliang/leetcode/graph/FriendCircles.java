@@ -1,4 +1,4 @@
-package yichenliang.leetcode.withoutTopic;
+package yichenliang.leetcode.graph;
 
 /**
  *  547. Friend Circles
