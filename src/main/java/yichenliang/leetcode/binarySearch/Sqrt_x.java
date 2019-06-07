@@ -1,7 +1,7 @@
 package yichenliang.leetcode.binarySearch;
 
 /**
- *  767. Reorganize String
+ *  69. Sqrt(x)
  *  
  *  Binary Search
  *  

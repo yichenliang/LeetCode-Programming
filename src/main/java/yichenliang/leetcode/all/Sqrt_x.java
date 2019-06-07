@@ -1,7 +1,7 @@
 package yichenliang.leetcode.all;
 
 /**
- *  767. Reorganize String
+ *  69. Sqrt(x)
  *  
  *  time complexity: O(n)
  *  space complexity: O(n)

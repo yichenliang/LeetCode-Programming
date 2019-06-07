@@ -92,5 +92,17 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
         }
         return ans;
     }
+	
+	
+	
+	public static void main(String[] args) {
+		FindFirstAndLastPositionOfElementInSortedArray solution = new FindFirstAndLastPositionOfElementInSortedArray();
+		int[] nums = {5, 7, 7, 8, 8, 10};
+		int target = 8;
+//		int[] nums = {1, 4};
+//		int target = 4;
+		int[] res = solution.searchRange(nums, target);
+		System.out.println(res);
+	  }
 
 }

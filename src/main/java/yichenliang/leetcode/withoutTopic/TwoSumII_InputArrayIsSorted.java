@@ -1,4 +1,4 @@
-package yichenliang.leetcode.binarySearch;
+package yichenliang.leetcode.withoutTopic;
 
 import java.util.HashMap;
 import java.util.Map;
