@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.SerializeAndDeserializeN_aryTree;
 
 public class SerializeAndDeserializeN_aryTreeTest {
 	

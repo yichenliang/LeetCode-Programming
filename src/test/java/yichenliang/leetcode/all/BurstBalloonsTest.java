@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.BurstBalloons;
+import yichenliang.leetcode.all.BurstBalloons;
 
 public class BurstBalloonsTest {
 	private  BurstBalloons solution;

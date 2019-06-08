@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.VerifyPreorderSequenceInBinarySearchTree;
+import yichenliang.leetcode.all.VerifyPreorderSequenceInBinarySearchTree;
 
 public class VerifyPreorderSequenceInBinarySearchTreeTest {
 	private VerifyPreorderSequenceInBinarySearchTree solution;

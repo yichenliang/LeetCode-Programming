@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.JumpGame;
+import yichenliang.leetcode.all.JumpGame;
 
 
 public class JumpGameTest {
