@@ -2,6 +2,8 @@ package yichenliang.leetcode.all;
 
 /**
  *  203. Remove Linked List Elements
+ *  
+ *  Linked List
  *   
  *  time complexity: O(n)
  *  space complexity: O(1)

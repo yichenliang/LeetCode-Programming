@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.BasicCalculatorII;
+import yichenliang.leetcode.all.BasicCalculatorII;
 
 public class BasicCalculatorIITest {
 	

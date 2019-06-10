@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.KClosestPointsToOrigin;
+import yichenliang.leetcode.all.KClosestPointsToOrigin;
 
 public class KClosestPointsToOriginTest {
 	private KClosestPointsToOrigin solution;

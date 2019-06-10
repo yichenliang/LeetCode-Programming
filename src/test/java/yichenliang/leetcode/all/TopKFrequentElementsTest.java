@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.TopKFrequentElements;
+import yichenliang.leetcode.all.TopKFrequentElements;
 
 
 public class TopKFrequentElementsTest {

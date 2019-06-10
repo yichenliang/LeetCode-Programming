@@ -3,6 +3,8 @@ package yichenliang.leetcode.linkedList;
 /**
  *  234. Palindrome Linked List
  *  
+ *  linked list + two pointers
+ *  
  *  time complexity: O(n)
  *  space complexity: O(1)
  * 

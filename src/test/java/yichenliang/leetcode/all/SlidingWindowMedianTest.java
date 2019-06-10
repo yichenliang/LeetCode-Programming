@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.SlidingWindowMedian;
+import yichenliang.leetcode.all.SlidingWindowMedian;
 
 public class SlidingWindowMedianTest {
 	private SlidingWindowMedian solution;

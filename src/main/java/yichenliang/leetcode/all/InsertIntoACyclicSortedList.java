@@ -3,6 +3,8 @@ package yichenliang.leetcode.all;
 /**
  * 708. Insert into a Cyclic Sorted List
  * 
+ * LinkedList 
+ * 
  * time complexity: O(n)
  * space complexity: O(1)
  * 
@@ -24,8 +26,6 @@ public class InsertIntoACyclicSortedList {
 	
 public Node insert(Node head, int insertVal) {
 	
-	
-        
         if(head == null){
             Node h = new Node(insertVal);
             h.next = h;

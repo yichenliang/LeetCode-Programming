@@ -3,6 +3,8 @@ package yichenliang.leetcode.all;
 /**
  *  160. Intersection of Two Linked Lists
  *  
+ *  LinkedList 
+ *  
  *  time complexity: O(n)
  *  space complexity: O(1)
  */
