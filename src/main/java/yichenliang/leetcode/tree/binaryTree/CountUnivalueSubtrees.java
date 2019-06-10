@@ -3,7 +3,7 @@ package yichenliang.leetcode.tree.binaryTree;
 /**
  * 250. Count Univalue Subtrees
  * 
- * method: DFS
+ * method: Recursion
  * 
  * time complexity:  O(n)
  * space complexity: O(height)

@@ -7,6 +7,8 @@ import java.util.Stack;
 /**
  *  545. Boundary of Binary Tree
  *  
+ *  Recursion + Stack
+ *  
  *  time complexity: O(n)
  *  space complexity: O(N)
  */

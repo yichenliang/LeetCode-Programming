@@ -9,7 +9,7 @@ import java.util.Queue;
 /**
  * 102. Binary Tree Level Order Traversal
  * 
- * bfs
+ * binary tree + bfs
  * 
  * time complexity: O(n)
  * space complexity: O(n)

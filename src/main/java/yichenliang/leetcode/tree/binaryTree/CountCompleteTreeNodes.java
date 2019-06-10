@@ -3,6 +3,11 @@ package yichenliang.leetcode.tree.binaryTree;
 /**
  * 222. Count Complete Tree Nodes
  * 
+ * Recursion 
+ * 
+ * time complexity: O(logn * logn)
+ * space complexity: O(height)
+ * 
  */
 
  class TreeNode {

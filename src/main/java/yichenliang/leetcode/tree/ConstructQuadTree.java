@@ -3,6 +3,11 @@ package yichenliang.leetcode.tree;
 /**
  * 427. Construct Quad Tree
  * 
+ * recursion
+ * 
+ * time complexity: O(n)
+ * space complexity: O(sqrt(n))
+ * 
  */
 
 public class ConstructQuadTree {

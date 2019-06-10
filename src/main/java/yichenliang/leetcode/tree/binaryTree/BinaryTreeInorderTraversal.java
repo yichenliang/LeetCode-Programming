@@ -7,6 +7,8 @@ import java.util.Stack;
 /**
  *  94. Binary Tree Inorder Traversal
  * 
+ * binary tree
+ * 
  *  Method 1: recursion
  *  time complexity: O(n)
  *  space complexity: O(height)

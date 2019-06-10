@@ -8,6 +8,8 @@ package yichenliang.leetcode.tree.binaryTree;
  *  time complexity: O(n)
  *  space complexity: O(1)
  *  
+ *  it is better to use the method in 106. Construct Binary Tree from Inorder and Postorder Traversal
+ *  
  */
 
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal {

@@ -8,6 +8,8 @@ import java.util.Queue;
 /**
  * 199. Binary Tree Right Side View
  * 
+ * Binary Tree
+ * 
  * method1: DFS
  * time complexity: O(n)
  * space complexity: O(logN)

@@ -9,8 +9,10 @@ import java.util.Queue;
 /**
  *  314. Binary Tree Vertical Order Traversal
  *  
+ *  Binary Tree + BFS
+ *  
  *  time complexity: O(n)
- *  space complexity: O(n)
+ *  space complexity: O(m)
  */
 
 public class BinaryTreeVerticalOrderTraversal {
