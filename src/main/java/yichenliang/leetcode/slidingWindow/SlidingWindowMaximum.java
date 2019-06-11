@@ -2,6 +2,12 @@ package yichenliang.leetcode.slidingWindow;
 
 /**
  *  239. Sliding Window Maximum
+ *  
+ *  sliding window + dequeue
+ *  
+ * time complexity: o(n)
+ * space complexity: o(k)
+ *  
  */
 
 import java.util.Deque;
@@ -41,5 +47,3 @@ class SlidingWindowMaximum {
 }
 	
     
-// time complexity: o(n)
-// space complexity: o(n)

@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 438. Find All Anagrams in a String
  *  
- *  method : sliding window + HashMap
+ *  method : sliding window + HashMap(Array)
  * 
  *  time complexity: O(n)
  *  space complexity: O(1)

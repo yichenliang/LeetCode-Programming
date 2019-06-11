@@ -1,4 +1,4 @@
-package yichenliang.leetcode.slidingWindow;
+package yichenliang.leetcode.sortAlgorithm;
 
 import java.util.Arrays;
 
