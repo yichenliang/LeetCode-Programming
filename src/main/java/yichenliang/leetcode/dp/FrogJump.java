@@ -8,7 +8,7 @@ import java.util.Set;
 /**
  *  403. Frog Jump
  * 
- *  dynamic programming
+ *  dynamic programming + hashmap (use hashmap to record status)
  * 
  *  time complexity: O(n^2)
  *  space complexity: O(n)

@@ -9,7 +9,7 @@ package yichenliang.leetcode.all;
  *  time complexity: O(n)
  *  space complexity: O(n)
  *  
- *  method 2
+ *  method 2  did not implement it
  *  time complexity: O(n)
  *  space complexity: O(1)
  */
@@ -40,8 +40,6 @@ public class BestTimeToBuyAndSellStockWithCooldown {
             }   
         }
         
-        return unhold[n -1];
-        
+        return unhold[n -1];  
     }
-
 }

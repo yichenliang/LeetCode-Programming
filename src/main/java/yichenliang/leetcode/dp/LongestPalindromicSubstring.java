@@ -1,5 +1,14 @@
 package yichenliang.leetcode.dp;
 
+/**
+ * 5. Longest Palindromic Substring
+ * 
+ * dp
+ * 
+ * time complexity: O(n^2)
+ * space complexity: O(n^2)
+ */
+
 public class LongestPalindromicSubstring {
 	
 	public String longestPalindrome(String s) {

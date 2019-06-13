@@ -18,7 +18,7 @@ public class LongestPalindromicSubstringTest {
     @Test
     void test1() {
     	String s = "aaaaaa";
-        Assertions.assertEquals("aaaaaa",solution.longestPalindrome(s));
+        Assertions.assertEquals("aaaaaa",solution.longestPalindrome1(s));
        
     }
 

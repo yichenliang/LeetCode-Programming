@@ -12,7 +12,7 @@ import java.util.TreeMap;
  */
 
 public class OddEvenJump {
-public int oddEvenJumps(int[] A) {
+	public int oddEvenJumps(int[] A) {
         
         int len = A.length;
         int[][] dp = new int[len][2];

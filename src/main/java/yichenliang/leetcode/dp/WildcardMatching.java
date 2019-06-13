@@ -39,14 +39,12 @@ public class WildcardMatching {
                     res[i][j] = res[i - 1][j - 1];
                 }
                 else if(p.charAt(j - 1) == '*'){
-                    if(res[i - 1][j - 1] || res[i][j - 1] || res[i - 1][j]){
+                    if(res[i][j - 1] || res[i - 1][j]){
                         res[i][j] = true;
                     }
                 }
             }
         }
-        
         return res[slen][plen];  
     }
-
 }

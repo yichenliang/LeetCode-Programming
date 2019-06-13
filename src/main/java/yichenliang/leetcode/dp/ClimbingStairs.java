@@ -1,5 +1,14 @@
 package yichenliang.leetcode.dp;
 
+/**
+ *  70. Climbing Stairs
+ * 
+ *  dynamic programming
+ *  
+ *  time complexity: O(n)
+ *  space complexity: O(n)
+ */
+
 public class ClimbingStairs {
 	
 	public int climbStairs(int n) {
