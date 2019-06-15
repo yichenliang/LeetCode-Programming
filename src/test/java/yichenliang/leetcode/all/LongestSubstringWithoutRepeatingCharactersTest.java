@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.LongestSubstringWithoutRepeatingCharacters;
+import yichenliang.leetcode.all.LongestSubstringWithoutRepeatingCharacters;
 
 public class LongestSubstringWithoutRepeatingCharactersTest {
 	

@@ -5,8 +5,8 @@ package yichenliang.leetcode.slidingWindow;
  *  
  *  sliding window + dequeue
  *  
- * time complexity: o(n)
- * space complexity: o(k)
+ *  time complexity: o(n)
+ *  space complexity: o(k)
  *  
  */
 

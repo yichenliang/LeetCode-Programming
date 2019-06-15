@@ -1,4 +1,4 @@
-package yichenliang.leetcode.withoutTopic;
+package yichenliang.leetcode.bfs;
 
 import java.util.HashSet;
 import java.util.List;
