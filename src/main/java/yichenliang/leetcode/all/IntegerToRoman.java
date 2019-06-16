@@ -8,7 +8,7 @@ package yichenliang.leetcode.all;
  */
 
 public class IntegerToRoman {
-public String intToRoman(int num) {
+	public String intToRoman(int num) {
         
         StringBuilder sb =  new StringBuilder();
         
