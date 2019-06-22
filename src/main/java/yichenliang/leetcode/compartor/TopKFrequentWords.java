@@ -1,4 +1,4 @@
-package yichenliang.leetcode.withoutTopic;
+package yichenliang.leetcode.compartor;
 
 import java.util.Comparator;
 import java.util.HashMap;
@@ -36,7 +36,7 @@ public class TopKFrequentWords {
         Comparator<Node> comparator = new Comparator<Node>(){
             @Override
             public int compare(Node a, Node b) {
-             return a.freq == b.freq ? b.word.compareTo(a.word) : a.freq - b.freq;
+             return a.freq == b.freq ? -a.word.compareTo(b.word) : a.freq - b.freq;
             }
         };
         

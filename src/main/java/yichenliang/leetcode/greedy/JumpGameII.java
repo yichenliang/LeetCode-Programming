@@ -1,4 +1,4 @@
-package yichenliang.leetcode.all;
+package yichenliang.leetcode.greedy;
 
 /**
  * 45. Jump Game II

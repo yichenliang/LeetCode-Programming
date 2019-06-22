@@ -1,4 +1,4 @@
-package yichenliang.leetcode.all;
+package yichenliang.leetcode.design;
 
 import java.util.ArrayList;
 import java.util.HashMap;

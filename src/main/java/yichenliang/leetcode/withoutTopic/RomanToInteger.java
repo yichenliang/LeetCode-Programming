@@ -6,7 +6,9 @@ import java.util.Map;
 /**
  *  13. Roman to Integer
  *   
- * 
+ *  method2:
+ *  time complexity: O(n)
+ *  space complexity: O(1)
  */
 
 public class RomanToInteger {
@@ -52,8 +54,7 @@ public class RomanToInteger {
     }
 	
 	 public int romanToInt2(String s) {
-	        
-	        if(s == null || s.length() == 0){
+		 if(s == null || s.length() == 0){
 	            return 0;
 	        }
 	        
@@ -68,20 +69,10 @@ public class RomanToInteger {
 	                    res += 1;
 	                    break;
 	                case 'X':
-	                    if(last == 'I'){
-	                        res += 8;
-	                    }
-	                    else{
-	                        res += 10;
-	                    }
+	                    res += (last == 'I') ? 8 : 10;
 	                    break;
 	                case 'C':
-	                   if(last == 'X'){
-	                        res += 80;
-	                    }
-	                    else{
-	                        res += 100;
-	                    }
+	                    res += (last == 'X') ? 80 : 100;
 	                    break;
 	                case 'V':
 	                   res += (last == 'I') ? 3 : 5; 
@@ -101,6 +92,7 @@ public class RomanToInteger {
 	            last = ch;
 	        }
 	        return res;
-	    }
+	        
+	 }
 
 }

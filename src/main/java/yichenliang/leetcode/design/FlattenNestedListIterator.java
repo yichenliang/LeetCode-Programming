@@ -1,4 +1,4 @@
-package yichenliang.leetcode.withoutTopic;
+package yichenliang.leetcode.design;
 
 import java.util.Deque;
 import java.util.Iterator;

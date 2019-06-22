@@ -1,4 +1,4 @@
-package yichenliang.leetcode.withoutTopic;
+package yichenliang.leetcode.compartor;
 
 import java.util.Comparator;
 import java.util.LinkedList;

@@ -10,6 +10,9 @@ import java.util.List;
  * 
  * method: HashMap, BFS
  * 
+ * time complexity: O(m)
+ * space complexity: O(m)
+ * 
  */
 
 public class CloneGraph {

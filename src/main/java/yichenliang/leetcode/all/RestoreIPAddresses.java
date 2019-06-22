@@ -8,6 +8,9 @@ import java.util.List;
  * 
  *  dfs
  *  
+ *  time complexity: O(len)
+ *  space complexity: O(len/3)
+ *  
  */
 
 public class RestoreIPAddresses {

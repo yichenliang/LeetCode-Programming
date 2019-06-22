@@ -16,7 +16,7 @@ public class FindTheCelebrity{
         int candidate = 0;
         
         // find candidate 
-        for(int i = 0; i < n; i++){
+        for(int i = 1; i < n; i++){
             if(!knows(i, candidate)){
                 candidate = i;
             }
