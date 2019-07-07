@@ -3,6 +3,13 @@ package yichenliang.leetcode.design;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * 225. Implement Stack using Queues
+ * 
+ * time complexity: O(n)
+ * space complexity: O(n) 
+ */
+
 public class ImplementStackUsingQueues {
 	
 	class MyStack {

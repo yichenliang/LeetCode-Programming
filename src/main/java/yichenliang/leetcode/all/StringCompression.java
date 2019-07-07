@@ -3,6 +3,8 @@ package yichenliang.leetcode.all;
 /**
  * 443. String Compression
  * 
+ * String
+ * 
  * time complexity: O(n)
  * space complexity: O(1)
  * 

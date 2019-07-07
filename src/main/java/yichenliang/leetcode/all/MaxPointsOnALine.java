@@ -7,6 +7,8 @@ import java.util.Map;
  * 
  * 149. Max Points on a Line
  * 
+ * Math
+ * 
  * use data type: double !
  * 
  * Time complexity: O(n^2)

@@ -14,6 +14,10 @@ import java.util.Set;
  *  method : hashSet 
  *  time complexity: O(n)
  *  space complexity: O(n)
+ *  
+ *  method : math
+ *  time complexity: O(n)
+ *  space complexity: O(1) 
  * 
  */
 
@@ -46,6 +50,16 @@ public class MissingNumber {
         }
         
         return nums.length;
+    }
+	
+	public int missingNumber3(int[] nums) {
+        
+        int len = nums.length;
+        int sum = (0 + len) * (len + 1) / 2;
+        for(int num : nums){
+            sum = sum - num;
+        }
+        return sum;
     }
 
 }

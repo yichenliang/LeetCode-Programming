@@ -1,14 +1,18 @@
 package yichenliang.leetcode.sortAlgorithm;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 /**
  *  973. K Closest Points to Origin
  *  
  *  // Quick sort
- *  
- *  time complexity: O(n)
+ *  time complexity: O(nlogn)
  *  space complexity: O(1)
+ *  
+ *  // priority queue
+ *  time complexity: O(nlogn)
+ *  space complexity: O(n)
  * 
  */
 
@@ -64,4 +68,25 @@ public class KClosestPointsToOrigin {
 		points[right][0] = temp0;
 		points[right][1] = temp1;		
 	}
+	
+	// pq
+	public int[][] kClosest2(int[][] points, int K) {
+        
+        if(points == null || points.length == 0 || points[0].length == 0){
+            return null;
+        }
+        
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] * a[0] + a[1] * a[1] - b[0] * b[0] - b[1] * b[1]);
+        int len = points.length;
+        
+        for(int i = 0; i < len; i++){
+            pq.offer(points[i]);
+        }
+        
+        int[][] res = new int[K][2];
+        for(int i = 1; i <= K; i++){
+            res[i - 1] = pq.poll();
+        }
+        return res;
+    }
 }

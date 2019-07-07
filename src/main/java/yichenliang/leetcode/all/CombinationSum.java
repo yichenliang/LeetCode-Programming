@@ -8,11 +8,13 @@ import java.util.List;
 /**
  *  39. Combination Sum
  *  
- *  // DFS
+ *  DFS + backtracking
+ *  
  * 
  */
 
 public class CombinationSum {
+	
 	public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
         
@@ -25,7 +27,7 @@ public class CombinationSum {
         return res;
     }
     
-    void dfsHelper(int[] candidates, int target, int index, List<List<Integer>>res, List<Integer> curRes){
+    private void dfsHelper(int[] candidates, int target, int index, List<List<Integer>>res, List<Integer> curRes){
         
         if(target == 0){
             res.add(new ArrayList<Integer>(curRes));

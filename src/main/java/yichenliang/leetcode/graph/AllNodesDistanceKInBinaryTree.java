@@ -38,7 +38,7 @@ public class AllNodesDistanceKInBinaryTree {
 	        visited.add(target);
 	        while(!q.isEmpty()){
 	            int size = q.size();
-	            while(size > 0){
+	            for(int i = 0; i < size; i++){
 	                TreeNode current = q.poll();
 	                if(k == K){
 	                    res.add(current.val);
@@ -52,7 +52,6 @@ public class AllNodesDistanceKInBinaryTree {
 	                        }
 	                    } 
 	                }
-	                size--;
 	            }
 	            k++;
 	        }
@@ -60,7 +59,7 @@ public class AllNodesDistanceKInBinaryTree {
 	    }
 	    
 	     private void buildGraph(Map<TreeNode, List<TreeNode>> graph, TreeNode node, TreeNode p){
-	        if(node != null){
+	        if(node == null) return;
 	            if(!graph.containsKey(node)) graph.put(node, new ArrayList<TreeNode>());
 	            if(!graph.containsKey(p)) graph.put(p, new ArrayList<TreeNode>());
 	            
@@ -69,8 +68,7 @@ public class AllNodesDistanceKInBinaryTree {
 	            
 	            buildGraph(graph, node.left, node);
 	            buildGraph(graph, node.right, node);
-	        }
+	        
 	    }
-
 
 }

@@ -7,6 +7,11 @@ import java.util.Map;
 
 /**
  *  609. Find Duplicate File in System
+ *  
+ *  String
+ *  
+ *  time complexity: O(n)
+ *  space complexity: O(n)
  */
 
 public class FindDuplicateFileInSystem {

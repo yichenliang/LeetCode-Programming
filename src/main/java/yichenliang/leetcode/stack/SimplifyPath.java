@@ -5,6 +5,8 @@ import java.util.Stack;
 /**
  * 71. Simplify Path
  * 
+ * stack
+ * 
  * time complexity: O(n)
  * space complexity: O(n)
  */

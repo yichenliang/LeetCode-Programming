@@ -54,7 +54,7 @@ public class PacificAtlanticWaterFlow {
         return ans;
     }
     
-    void dfs(int x, int y, int[][] sea, int[][] matrix){
+    private void dfs(int x, int y, int[][] sea, int[][] matrix){
         sea[x][y] = 1;
         
         int row = matrix.length;

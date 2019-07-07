@@ -11,7 +11,7 @@ package yichenliang.leetcode.binarySearch;
 
 public class MedianOfTwoSortedArrays {
 	
-public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+	public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         
         int m = nums1.length;
         int n = nums2.length;
@@ -33,11 +33,11 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
           
           int j = halfLength - i;
           
-          if(i>iMin && nums1[i-1]>nums2[j]){
+          if(i>iMin && !(nums1[i-1]<nums2[j])){
               // i is too big
               iMax = i - 1;
           }
-          else if(i<iMax && nums1[i] < nums2[j-1]){
+          else if(i<iMax && !(nums2[j-1] < nums1[i])){
               // i is too small
               iMin = i + 1;
           }
@@ -50,9 +50,9 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
               else if(j == 0){
                     leftMax = nums1[i-1];   
               }
-            else{
-               leftMax = Math.max(nums1[i-1], nums2[j-1]); 
-            }
+              else{
+                 leftMax = Math.max(nums1[i-1], nums2[j-1]); 
+               }
               
               if((m+n)%2 == 1){
                   return leftMax;
@@ -65,17 +65,16 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
               else if(j == n){
                     rightMin = nums1[i];   
               }
-            else{
-               rightMin = Math.min(nums1[i], nums2[j]); 
-            }
+              else{
+                  rightMin = Math.min(nums1[i], nums2[j]); 
+              }
               double median = (leftMax + rightMin)/2.0;
-             return median;
+              return median;
               
           }
         
         }
-        return 0.0;
-        
+        return 0.0;   
     }
 
 }

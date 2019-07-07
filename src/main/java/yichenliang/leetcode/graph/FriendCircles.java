@@ -25,7 +25,7 @@ public class FriendCircles {
         return res;    
     }
     
-    void dfs(int current, int[][] M, int len){
+    private void dfs(int current, int[][] M, int len){
         
         for(int j = 0; j < len; j++){
             if(M[current][j] == 0){

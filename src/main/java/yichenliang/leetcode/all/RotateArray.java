@@ -1,8 +1,9 @@
 package yichenliang.leetcode.all;
 
 /**
- * 
  * 189. Rotate Array
+ * 
+ * Array
  * 
  * Time complexity: O(n)
  * Space complexity: O(1)

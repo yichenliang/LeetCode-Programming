@@ -8,7 +8,7 @@ import java.util.HashMap;
  * Design
  * 
  * Time complexity : O(1)
- * Space complexity : O(capacity)
+ * Space complexity : O(capacity) = O(1)
  * 
  * 
  */

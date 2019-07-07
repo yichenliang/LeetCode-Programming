@@ -5,6 +5,10 @@ import java.util.LinkedList;
 
 /**
  * 362. Design Hit Counter
+ * 
+ * time complexity: O(1)
+ * 
+ * space complexity: O(1)
  */
 
 public class DesignHitCounter {

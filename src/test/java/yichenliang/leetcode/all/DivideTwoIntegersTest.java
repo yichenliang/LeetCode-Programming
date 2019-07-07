@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.DivideTwoIntegers;
+import yichenliang.leetcode.all.DivideTwoIntegers;
 
 public class DivideTwoIntegersTest {
 	

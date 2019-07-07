@@ -15,7 +15,7 @@ import java.util.Stack;
 
 public class ExclusiveTimeOfFunctions {
 	
-public int[] exclusiveTime(int n, List<String> logs) {
+	public int[] exclusiveTime(int n, List<String> logs) {
         
         int[] res = new int[n];
         Stack<Integer> store = new Stack<>();

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.MakingALargeIsland;
+import yichenliang.leetcode.all.MakingALargeIsland;
 
 public class MakingALargeIslandTest {
 	

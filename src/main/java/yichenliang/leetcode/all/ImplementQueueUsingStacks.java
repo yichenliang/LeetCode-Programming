@@ -4,6 +4,9 @@ import java.util.Stack;
 
 /**
  *  232. Implement Queue using Stacks
+ *  
+ *  time complexity: O(n)
+ *  space complexity: O(n)
  *   
  */
 

@@ -20,6 +20,6 @@ public class TwoSumII_InputArrayIsSortedTest {
     	int[] numbers = {1,2,3,4,5,6,7,11,15};
     	int target = 9;
     	int[] ans = {2, 7};
-        Assertions.assertArrayEquals(ans, solution.twoSum3(numbers, target));   
+        Assertions.assertArrayEquals(ans, solution.twoSum(numbers, target));   
     }
 }

@@ -7,8 +7,10 @@ import java.util.PriorityQueue;
 
 /**
  *  218. The Skyline Problem
+ *  
+ *  time complexity: O(n*nlogn)
+ *  space complexity: O(n)
  *   
- * 
  */
 
 public class TheSkylineProblem {

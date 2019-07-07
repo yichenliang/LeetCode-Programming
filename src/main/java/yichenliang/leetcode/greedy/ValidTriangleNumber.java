@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 public class ValidTriangleNumber {
 	
-public int triangleNumber(int[] nums) {
+	public int triangleNumber(int[] nums) {
         
         if(nums == null || nums.length <= 2){
             return 0;

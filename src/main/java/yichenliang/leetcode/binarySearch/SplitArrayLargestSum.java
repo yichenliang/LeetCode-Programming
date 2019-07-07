@@ -35,7 +35,7 @@ public class SplitArrayLargestSum {
         return (int)low;
     }
     
-    int split(int[] nums, long largestSum){
+    private int split(int[] nums, long largestSum){
         long tempSum = 0;
         int part = 1;
         for(int num : nums){

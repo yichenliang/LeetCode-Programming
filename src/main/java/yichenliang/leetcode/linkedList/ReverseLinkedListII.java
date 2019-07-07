@@ -10,7 +10,7 @@ package yichenliang.leetcode.linkedList;
 
 public class ReverseLinkedListII {
 	
-public ListNode reverseBetween(ListNode head, int m, int n) {
+	public ListNode reverseBetween(ListNode head, int m, int n) {
         
         if(head == null) return head;
         
@@ -40,8 +40,7 @@ public ListNode reverseBetween(ListNode head, int m, int n) {
              mNode = preM.next;     
         }
         
-        return dummy.next;
-        
+        return dummy.next;     
     }
 
 }

@@ -2,6 +2,12 @@ package yichenliang.leetcode.string;
 
 /**
  * 43. Multiply Strings
+ * 
+ * String + Math
+ * 
+ * time complexity: O(m + n)
+ * space complexity: O(m + n)
+ * 
  */
 
 public class MultiplyStrings {

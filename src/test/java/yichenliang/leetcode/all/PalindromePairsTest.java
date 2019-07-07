@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.PalindromePairs;
+import yichenliang.leetcode.all.PalindromePairs;
 
 public class PalindromePairsTest {
 	 private  PalindromePairs solution;

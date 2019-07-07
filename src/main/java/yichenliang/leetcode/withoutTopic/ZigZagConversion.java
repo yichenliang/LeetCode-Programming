@@ -1,9 +1,17 @@
 package yichenliang.leetcode.withoutTopic;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  *  6. ZigZag Conversion
  *  
+ *  method 1:
  *  time complexity: O(n)
+ *  space complexity: O(n)
+ *  
+ *  method2:
+ *  time complexity: O(n * m)
  *  space complexity: O(n)
  */
 
@@ -56,6 +64,38 @@ public class ZigZagConversion {
         }
         
         return sb.toString();
+    }
+	
+	public String convert2(String s, int numRows) {
+        
+        int len = s.length();
+        
+        if(len <= numRows) return s;
+        if(numRows == 1) return s;
+        
+        List<Integer> p = new LinkedList<>();
+        int n = numRows * 2 - 2;
+        for(int i = 0; i <= len + n; i++){
+            if(i % n == 0) p.add(i);
+        }
+        
+        int prev = -1;
+        StringBuilder ans = new StringBuilder();
+        for(int i = 0; i < numRows; i++){
+            for(int j = 0; j < p.size(); j++){
+                int b = p.get(j);
+                if(b - i >= 0 && b - i < len && b - i != prev){
+                    ans.append(s.charAt(b - i));
+                    prev = b - i;
+                }
+                
+                if(b + i < len && b + i != prev){
+                    ans.append(s.charAt(b + i));
+                    prev = b + i;
+                }
+            }
+        }
+        return ans.toString();
     }
 
 }

@@ -20,7 +20,7 @@ public class FirstUniqueCharacterInAString {
             return -1;
         }
         
-        // key: character, value : times of this character
+        // key: character, value : index of this character
         Map<Character, Integer> map = new HashMap<>();
         LinkedList<Character> queue = new LinkedList<>();
         

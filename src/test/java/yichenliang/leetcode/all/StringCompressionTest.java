@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.StringCompression;
+import yichenliang.leetcode.all.StringCompression;
 
 public class StringCompressionTest {
 	

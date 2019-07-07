@@ -6,7 +6,10 @@ import java.util.PriorityQueue;
 /**
  *  716. Max Stack
  * 
- *  Design
+ *  Design + linked list + priority queue
+ *  
+ *  time complexity: O()
+ *  space complexity: O()
  *  
  */
 

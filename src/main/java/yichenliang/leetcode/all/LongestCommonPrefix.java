@@ -3,6 +3,8 @@ package yichenliang.leetcode.all;
 /**
  *  14. Longest Common Prefix
  *  
+ *  String
+ *  
  *  time complexity: O(n)
  *  space complexity: O(1)
  */

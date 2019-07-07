@@ -5,6 +5,8 @@ import java.util.Stack;
 
 /**
  *  496. Next Greater Element I
+ *  
+ *  Stack
  *   
  *   time complexity: O(n)
  *   space complexity: O(n)

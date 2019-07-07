@@ -5,7 +5,10 @@ import java.util.Set;
 
 /**
  *  694. Number of Distinct Islands
+ *   DFS
  *   
+ *   time complexity: O(m*n)
+ *   space complexity: O(m*n)
  * 
  */
 
@@ -35,7 +38,7 @@ public class NumberOfDistinctIslands {
         return set.size();
     }
     
-    void dfs(int[][] grid, int i, int j, int level, char direction, StringBuilder sb){
+    private void dfs(int[][] grid, int i, int j, int level, char direction, StringBuilder sb){
         // end case
         if(i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] == 0){
             return;

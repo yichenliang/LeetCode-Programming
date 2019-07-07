@@ -11,6 +11,7 @@ package yichenliang.leetcode.string;
  */
 
 public class StringToInteger_atoi {
+	
 	public int myAtoi(String str) {
         if(str == null || str.length() == 0) return 0;
         

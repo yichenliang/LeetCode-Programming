@@ -6,7 +6,7 @@ package yichenliang.leetcode.all;
  * Greedy
  * 
  * time complexity: O(n)
- * 
+ * space complexity: O(n)
  */
 
 public class Candy {

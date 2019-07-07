@@ -3,6 +3,8 @@ package yichenliang.leetcode.all;
 /**
  *  410. Split Array Largest Sum
  *  
+ *  Binary Search
+ *  
  *  time complexity: O(logN)
  *  space complexity: O(1)
  * 
@@ -33,7 +35,7 @@ public class SplitArrayLargestSum {
         return (int)low;
     }
     
-    int split(int[] nums, long largestSum){
+    private int split(int[] nums, long largestSum){
         long tempSum = 0;
         int part = 1;
         for(int num : nums){

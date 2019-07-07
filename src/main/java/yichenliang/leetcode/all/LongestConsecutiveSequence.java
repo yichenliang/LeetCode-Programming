@@ -6,6 +6,8 @@ import java.util.Set;
 /**
  *  128. Longest Consecutive Sequence
  *  
+ *  HashSet
+ *  
  *  time complexity: O(n)
  *  space complexity: O(n)
  *  

@@ -3,6 +3,8 @@ package yichenliang.leetcode.all;
 /**
  * 50. Pow(x, n)
  * 
+ * Math
+ * 
  * time complexity: O(longN)
  * space complexity: O(1)
  */

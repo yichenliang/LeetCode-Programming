@@ -2,8 +2,13 @@ package yichenliang.leetcode.all;
 
 /**
  *  829. Consecutive Numbers Sum
+ *  
+ *  Math + using the equation of Arithmetic progression
  * 
  *  https://leetcode.com/problems/consecutive-numbers-sum/discuss/209317/topic
+ *  
+ *  time complexity: O(sqrt(N))
+ *  space complexity: O(1)
  */
 
 public class ConsecutiveNumbersSum {

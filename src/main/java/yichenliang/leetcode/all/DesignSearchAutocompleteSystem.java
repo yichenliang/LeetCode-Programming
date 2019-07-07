@@ -10,6 +10,9 @@ import java.util.PriorityQueue;
  * 
  * Design + HashMap + String
  * 
+ * input() : 
+ * time complexity: O(m)
+ * space complexity: O(n)
  *  
  */
 

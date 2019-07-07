@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  *  155. Min Stack
  *  
- *  Design
+ *  Design + stack
  *   
  *  time complexity: O(1)
  *  space complexity: O(n)

@@ -1,49 +1,52 @@
 package yichenliang.leetcode.all;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
+/**
+ *  402. Remove K Digits
+ *  
+ *  deque
+ *  
+ *  time complexity: O(n)
+ *  space complexity: O(n)
+ *   
+ */
+
 public class RemoveKDigits {
 	
-public String removeKdigits(String num, int k) {
+	public String removeKdigits(String num, int k) {
         
-        // edge case
+        if(num == null || num.length() == 0) return "0";
+        if(k == 0) return num;
         
-        // normal case
-	StringBuilder sb = new StringBuilder();
-    int len = num.length();
-    int currentK = k;
-    for(int i = 0; i < len - 1; i++){
-        if(num.charAt(i) > num.charAt(i + 1)){
-            if(currentK > 0){
-                currentK--;
+        int len = num.length();
+        Deque<Integer> dq = new LinkedList<>();
+        dq.push(num.charAt(0) - '0');
+        for(int i = 1; i < len; i++){
+            int cur = num.charAt(i) - '0';
+            while(!dq.isEmpty() && cur < dq.peekLast() && k > 0){
+                dq.pollLast();
+                k--;
             }
-            else{
-                sb.append(num.charAt(i));
-            }
+            dq.offerLast(cur);
         }
-        else{
-            sb.append(num.charAt(i));
+        
+        while(k > 0){
+            dq.pollLast();
+            k--;
         }
+        
+        if(dq.isEmpty()) return "0";
+        
+       while(dq.size() > 1 && dq.peekFirst() == 0){
+           dq.pollFirst();
+       }
+        
+        StringBuilder sb = new StringBuilder();
+        while(!dq.isEmpty()){
+            sb.append(dq.pollFirst());
+        }
+        return sb.toString();
     }
-    
-    sb.append(num.charAt(len - 1));
-    
-    while(currentK > 0){
-    	int l = sb.length();
-        sb.deleteCharAt(l - 1);
-        currentK--;
-    }
-
-    if(sb.length() == 0){
-        return "0";
-    }
-    
-    while(sb.length() > 0 && sb.charAt(0) == '0'){
-        sb.deleteCharAt(0);
-    }
-    
-     if(sb.length() == 0){
-        return "0";
-    }
-    return sb.toString();
-    }
-
 }

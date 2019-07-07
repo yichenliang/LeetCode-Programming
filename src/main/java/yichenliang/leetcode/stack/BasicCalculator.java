@@ -5,6 +5,11 @@ import java.util.Stack;
 /**
  * 224. Basic Calculator
  * 
+ * stack
+ * 
+ * time complexity: O(n)
+ * space complexity: O(n)
+ * 
  */
 
 public class BasicCalculator {

@@ -18,7 +18,7 @@ public class FindPeakElementTest {
     @Test
     void test1() {
     	int[] nums = {3, 2, 1};
-        Assertions.assertEquals(0,solution.findPeakElement(nums));
+        Assertions.assertEquals(0,solution.findPeakElement2(nums));
        
     }
 

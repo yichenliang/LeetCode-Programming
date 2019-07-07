@@ -6,11 +6,18 @@ import java.util.Stack;
  * 227. Basic Calculator II
  * 
  * method1: with stack
+ * time complexity: O(n)
+ * space complexity: O(n)
  * 
  * method2: without stack
+ * time complexity: O(n)
+ * space complexity: O(1)
+ * 
  */
 
 public class BasicCalculatorII {
+	
+	// with stack
 	public int calculate(String s) {
         if(s == null || s.length() == 0) return 0;
         
@@ -19,6 +26,7 @@ public class BasicCalculatorII {
         char sign = '+';
         
         Stack<Integer> stack = new Stack<>();
+        s = s.replaceAll(" ", "");
         
         for(int i = 0; i < s.length(); i++){
             if(Character.isDigit(s.charAt(i))){
@@ -29,7 +37,7 @@ public class BasicCalculatorII {
                 }
             }
             
-            if(!Character.isDigit(s.charAt(i))&& s.charAt(i) != ' ' || i == s.length() - 1){
+            if(i == s.length() - 1 || !Character.isDigit(s.charAt(i))){
                 if(sign == '+') stack.push(num);
                 if(sign == '-') stack.push(-num);
                 if(sign == '*') stack.push(stack.pop() * num); 
@@ -45,4 +53,52 @@ public class BasicCalculatorII {
         }
         return res;
     }
+	
+	// without stack
+	public int calculate2(String s) {
+	      if (s == null) return 0;
+	        s = s.replaceAll(" ", "");
+		    int len = s.length();
+		    
+		    int res = 0;
+		    long preVal = 0; // initial preVal is 0
+		    char sign = '+';
+	        
+	        int curVal = 0;
+	        for(int i = 0; i < len; i++){
+	            
+	            while(i < s.length() && Character.isDigit(s.charAt(i))){
+	                curVal = curVal * 10 + s.charAt(i) - '0';
+	                i++;
+	            }
+	            
+	            if (sign == '+') {
+		            res += preVal;  // update res
+		            preVal = curVal;
+		        }
+	            
+	            if (sign == '-') {
+		            res += preVal;  // update res
+		            preVal = -curVal;
+		        } 
+	            
+	            if (sign == '*') {
+		            preVal = preVal * curVal; // not update res, combine preVal & curVal and keep loop
+	                
+		        }
+	            
+	            if (sign == '/') {
+		            preVal = preVal / curVal; // not update res, combine preVal & curVal and keep loop
+		        }
+	            
+	            if (i < len) { // getting new sign
+		            sign = s.charAt(i);
+		            curVal = 0;
+		        }
+	            
+	        }
+		    
+		    res += preVal;
+		    return res;  
+	    }
 }

@@ -17,7 +17,7 @@ public class BasicCalculatorIITest {
 
     @Test
     void test1() {
-        Assertions.assertEquals(48,solution.calculate("32+5*3+1"));
+        Assertions.assertEquals(1,solution.calculate(" 3/2 "));
        
     }
     

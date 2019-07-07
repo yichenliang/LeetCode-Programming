@@ -8,8 +8,10 @@ import java.util.Map;
 /**
  *  811. Subdomain Visit Count
  *  
+ *  String
  *  
- * 
+ *  time complexity: O()
+ *  space complexity: O()
  */
 
 public class SubdomainVisitCount {

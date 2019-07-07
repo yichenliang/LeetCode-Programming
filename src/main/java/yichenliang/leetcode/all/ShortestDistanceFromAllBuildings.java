@@ -6,6 +6,11 @@ import java.util.Queue;
 /**
  *  317. Shortest Distance from All Buildings
  *  
+ *  bfs
+ *  
+ *  time complexity: O(m^2*n^2)
+ *  space complexity: O(m*n)
+ *  
  */
 
 public class ShortestDistanceFromAllBuildings {
@@ -44,7 +49,7 @@ public class ShortestDistanceFromAllBuildings {
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
     
-    void bfs(int[][] grid, int[][] canReach, int[][] dist, int row, int col){
+    private void bfs(int[][] grid, int[][] canReach, int[][] dist, int row, int col){
         int rows = grid.length;
         int cols = grid[0].length;
         boolean[][] visited = new boolean[rows][cols];
@@ -73,7 +78,7 @@ public class ShortestDistanceFromAllBuildings {
         }     
     }
     
-    boolean isValid(int[][] grid, int row, int col, boolean[][] visited){
+    private boolean isValid(int[][] grid, int row, int col, boolean[][] visited){
         if(row < 0 || row > grid.length - 1 || col < 0 || col > grid[0].length - 1){
             return false;
         }

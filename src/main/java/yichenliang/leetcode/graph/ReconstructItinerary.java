@@ -47,7 +47,7 @@ public class ReconstructItinerary {
        
     }
     
-    boolean dfsHelper(List<String> res, String start,  Map<String, List<String>> store, int size, int resLen){
+    private boolean dfsHelper(List<String> res, String start,  Map<String, List<String>> store, int size, int resLen){
         
         // end case
         if(size == resLen){
@@ -78,7 +78,7 @@ public class ReconstructItinerary {
         
     }
     
-    void insertNew(List<String> positions, String p){
+    private void insertNew(List<String> positions, String p){
         int i = 0;
         for(i = 0; i < positions.size(); i++){
             String front = positions.get(i);

@@ -5,6 +5,9 @@ package yichenliang.leetcode.all;
  *  
  *  Math, Combination
  *  
+ *  time complexity: O(n + target^2) , target^2 means two for loop
+ *  space complexity: O(101)
+ *  
  */
 
 public class _3SumWithMultiplicity {
@@ -53,5 +56,4 @@ public class _3SumWithMultiplicity {
     
         return (int) (ans % (1e9 + 7));
     }
-
 }

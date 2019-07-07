@@ -1,5 +1,14 @@
 package yichenliang.leetcode.all;
 
+/**
+ * 7. Reverse Integer
+ * 
+ * Math
+ * 
+ * Time complexity: O(n)
+ * Space complexity: O(1)
+ */
+
 public class ReverseInteger {
 	
 	public int reverse(int x) {

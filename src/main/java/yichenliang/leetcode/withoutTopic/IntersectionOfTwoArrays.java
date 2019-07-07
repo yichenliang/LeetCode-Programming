@@ -8,6 +8,8 @@ import java.util.Set;
 /**
  *  349. Intersection of Two Arrays
  *  
+ *  HashSet
+ *  
  *  time complexity: O(n)
  *  space complexity: O(n)
  */

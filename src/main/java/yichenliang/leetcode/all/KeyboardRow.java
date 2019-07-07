@@ -7,6 +7,8 @@ import java.util.Map;
 
 /**
  *  500. Keyboard Row
+ *  
+ *  String
  * 
  *  time complexity: O(n)
  *  space complexity: O(1)
@@ -29,7 +31,7 @@ public class KeyboardRow {
         for(String w: words){
             int index = map.get(w.toUpperCase().charAt(0));
             for(char c: w.toUpperCase().toCharArray()){
-                if(map.get(c)!=index){
+                if(map.get(c) != index){
                     index = -1; //don't need a boolean flag. 
                     break;
                 }

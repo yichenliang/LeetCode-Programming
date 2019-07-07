@@ -7,11 +7,16 @@ import java.util.Map;
 
 /**
  * 347. Top K Frequent Elements
+ * 
+ * bucket sort
+ * 
+ * time complexity: O(n)
+ * space complexity: O(n)
  */
 
 public class TopKFrequentElements {
 	
-public List<Integer> topKFrequent(int[] nums, int k) {
+	public List<Integer> topKFrequent(int[] nums, int k) {
         
         Map<Integer, Integer> store = new HashMap<>();
         for(int n : nums){

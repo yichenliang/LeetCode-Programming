@@ -5,10 +5,10 @@ import java.util.PriorityQueue;
 /**
  * 295. Find Median from Data Stream
  * 
- * Design
+ * Design + PriorityQueue
  * 
  * add
- * time complexity: O(logN)
+ * time complexity: O(nlogN)
  * space complexity: O(n)
  * 
  * find

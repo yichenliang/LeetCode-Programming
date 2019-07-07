@@ -6,6 +6,9 @@ import java.util.LinkedList;
  * 772. Basic Calculator III
  * 
  * stack
+ * 
+ * time complexity: O(n)
+ * space complexity: O(n)
  *
  */
 

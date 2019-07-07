@@ -6,8 +6,15 @@ import java.util.Map;
 /**
  *  167. Two Sum II - Input array is sorted
  *  
+ *  using hashTable
+ *  time compelxity: O(n)
+ *  space complexity: O(n)
  *  
- * 
+ *  two pointers
+ *  time complexity: O(n)
+ *  space complexity: O(1)
+ *  
+ *  binary Search
  */
 
 public class TwoSumII_InputArrayIsSorted {
@@ -64,7 +71,7 @@ public class TwoSumII_InputArrayIsSorted {
     }
 	
 	// method 3 : with binary search
-	public int[] twoSum3(int[] numbers, int target) {
+	public int[] twoSum(int[] numbers, int target) {
         if (numbers == null || numbers.length == 0) {
             return new int[2];
         }
@@ -86,30 +93,29 @@ public class TwoSumII_InputArrayIsSorted {
     
     private int largestSmallerOrLastEqual(int[] numbers, int start, int end, int target) {
         int left = start;
-        int right = end;
-        while (left <= right) {
+        int right = end + 1;
+        while (left < right) {
             int mid = left + (right - left) / 2;
-            if (numbers[mid] > target) {
-                right = mid - 1;
-            } else {
+            if (numbers[mid] <= target) {
                 left = mid + 1;
+            } else {
+                right = mid;
             }
         }
-        return right;
+        return left - 1;
     }
     
     private int smallestLargerOrFirstEqual(int[] numbers, int start, int end, int target) {
         int left = start;
-        int right = end;
-        while (left <= right) {
+        int right = end + 1;
+        while (left < right) {
             int mid = left + (right - left) / 2;
             if (numbers[mid] < target) {
                 left = mid + 1;
             } else {
-                right = mid - 1;
+                right = mid;
             }
         }
         return left;
     }
-
 }

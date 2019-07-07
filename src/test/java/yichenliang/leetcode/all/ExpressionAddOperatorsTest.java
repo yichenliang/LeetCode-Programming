@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import yichenliang.leetcode.withoutTopic.ExpressionAddOperators;
+import yichenliang.leetcode.all.ExpressionAddOperators;
 
 public class ExpressionAddOperatorsTest {
 	private ExpressionAddOperators solution;

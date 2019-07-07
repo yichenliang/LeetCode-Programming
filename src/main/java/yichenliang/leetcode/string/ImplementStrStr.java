@@ -3,6 +3,8 @@ package yichenliang.leetcode.string;
 /**
  * 28. Implement strStr()
  * 
+ * String
+ * 
  * time complexity: O(n)
  * space complexity: O(1)
  * 

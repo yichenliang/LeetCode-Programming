@@ -6,6 +6,8 @@ import java.util.List;
 
 /**
  *  350. Intersection of Two Arrays II
+ *  
+ *  HashMap
  *   
  *  time complexity: O(n)
  *  space complexity: O(n + m)

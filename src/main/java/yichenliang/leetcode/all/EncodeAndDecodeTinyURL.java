@@ -8,7 +8,8 @@ import java.util.Map;
  * 
  * HashMap + HashCode
  *
- * 
+ * time complexity: O(1)
+ * space complexity: O(1)
  */
 
 public class EncodeAndDecodeTinyURL {
@@ -30,8 +31,7 @@ public class EncodeAndDecodeTinyURL {
         
         String url = store.get(key);
         
-        return url;
-        
+        return url;  
     }
 
 }

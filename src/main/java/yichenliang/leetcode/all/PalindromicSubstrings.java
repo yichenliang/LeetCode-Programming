@@ -6,7 +6,10 @@ package yichenliang.leetcode.all;
  * method 1 : expand from center
  * time complexity: O(n)
  * space complexity: O(1)
-  
+ * 
+ * method 2: dp
+ * time complexity: O(n^2)
+ * space complexity: O(n^2)
  */
 
 public class PalindromicSubstrings {
@@ -72,6 +75,39 @@ public class PalindromicSubstrings {
             e--;
         }
         return true;
+    }
+    
+    
+    // dp
+    public int countSubstrings2(String s) {
+        if(s == null || s.length() == 0) return 0;
+        if(s.length() == 1) return 1;
+        int len = s.length();
+        boolean[][] dp = new boolean[len][len];
+        int ans = 0;
+        
+        for(int i = 0; i < len; i++){
+            dp[i][i] = true;
+            ans++;
+        }
+        
+        for(int d = 1; d <= len - 1; d++){
+            for(int i = 0; i + d < len; i++){
+                if(s.charAt(i) == s.charAt(i + d)){
+                    if(d == 1){
+                        dp[i][i + d] = true;
+                        ans++;
+                    }
+                    else{
+                        if(dp[i + 1][i + d - 1] == true){
+                            dp[i][i + d] = true;
+                            ans++;
+                        }
+                    }
+                }
+            }
+        }
+        return ans;
     }
     
 }

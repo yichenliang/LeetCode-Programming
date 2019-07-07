@@ -6,6 +6,8 @@ import java.util.List;
 
 /**
  *  539. Minimum Time Difference
+ *  
+ *  String + comparator
  * 
  *  time complexity: O(nlogn)
  *  space complexity: O(n)
@@ -13,7 +15,7 @@ import java.util.List;
 
 public class MinimumTimeDifference {
 	
-public int findMinDifference(List<String> timePoints) {
+	public int findMinDifference(List<String> timePoints) {
         
         ArrayList<Integer> sortedTime = new ArrayList<>();
         for(String str : timePoints){
@@ -24,7 +26,7 @@ public int findMinDifference(List<String> timePoints) {
             sortedTime.add(time);
         }
         
-        Comparator alg = new Comparator<Integer>(){
+        Comparator<Integer> alg = new Comparator<Integer>(){
             public int compare(Integer a, Integer b){
                 return a - b;
             }
