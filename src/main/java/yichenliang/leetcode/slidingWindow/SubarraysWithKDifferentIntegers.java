@@ -1,4 +1,4 @@
-package yichenliang.leetcode.all;
+package yichenliang.leetcode.slidingWindow;
 
 import java.util.HashMap;
 import java.util.HashSet;
